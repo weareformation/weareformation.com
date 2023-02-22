@@ -1,0 +1,80 @@
+@charset "utf-8";
+html,
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, "sans-serif";
+	font-size: 22px;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+background-size: cover;
+  position: fixed;
+ left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+z-index: -1;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position:fixed;
+/*  bottom: 0;*/
+  background: rgba(0, 0, 0, 0.6);
+  color:#FFFFFF;
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: 20px;
+}
+.message {
+	display: block;
+	/*border: 5px solid green;*/
+	margin: auto;
+	text-align: center;
+	padding:26px;
+	max-width: 680px;
+	align-content: center;
+	font-size: 32px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.logo {
+	max-width: 128px;
+	height: auto;
+	margin-left: 32px;
+	margin-top: 32px;
+	margin-bottom: 32px;	
+}
+
+.email {
+	filter: invert(100%);
+	max-width: 64px;
+	height: auto;
+	margin-left: 32px;
+	margin-top: 32px;
+	margin-bottom: 32px;	
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 150px;
+  font-size: 14px;
+  padding: 20px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+	margin: 20px;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
