@@ -9,7 +9,7 @@ html * {
 }
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
-background-size: cover;
+object-fit: cover;
   position: fixed;
 /*left: 0;*/
   right: 0;
